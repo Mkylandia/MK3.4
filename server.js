@@ -1,8 +1,6 @@
 // script.js
 document.addEventListener("DOMContentLoaded", () => {
-  // Hinweis: Das direkte Einbinden des API-Schlüssels im Frontend ist unsicher!
-  const API_KEY = "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";
-  
+  /
   // Grundkonfiguration
   const displayNames = {MKR: "MKR", MKB: "MKB", "MKB+": "MKB+", "MK+": "MK+", MK: "MK"};
   const themes = {
